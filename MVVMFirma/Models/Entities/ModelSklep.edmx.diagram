@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0ec56602b4394777a4e53e73d7eeac92" Name="Diagram1">
+        <EntityTypeShape EntityType="SklepModel.Adres" Width="1.5" PointX="1.5" PointY="29" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Dysk" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Firma" Width="1.5" PointX="3.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.KartaGraficzna" Width="1.5" PointX="3" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Klient" Width="1.5" PointX="1.5" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.MetodaPlatnosci" Width="1.5" PointX="1.5" PointY="32.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.OsobaFizyczna" Width="1.5" PointX="3.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.PamiecRAM" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.PlytaGlowna" Width="1.5" PointX="3" PointY="14.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.PozycjaZamowienia" Width="1.5" PointX="6" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Pracownik" Width="1.5" PointX="3.75" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Procesor" Width="1.5" PointX="3" PointY="21" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Produkt" Width="1.5" PointX="0.75" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Promocja" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Status" Width="1.5" PointX="1.5" PointY="35.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SklepModel.Zamowienie" Width="1.5" PointX="3.75" PointY="27.375" IsExpanded="true" />
+        <AssociationConnector Association="SklepModel.FK_Klient_Adres" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_Pracownik_Adres" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_Dysk_Produkt" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_Firma_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_KartaGraficzna_Produkt" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_OsobaFizyczna_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_Zamowienie_Klient" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_Zamowienie_MetodaPlatnosci" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_PamiecRAM_Produkt" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_PlytaGlowna_Produkt" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_PozycjaZamowienia_Produkt" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_PozycjaZamowienia_Promocja" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_PozycjaZamowienia_Zamowienie" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_Procesor_Produkt" ManuallyRouted="false" />
+        <AssociationConnector Association="SklepModel.FK_Zamowienie_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
