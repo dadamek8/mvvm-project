@@ -29,18 +29,19 @@ Project structure:
 
 ## How to run
 
-Clone repo
-Open in Visual Studio
-Update connection string
-Run database migration
-Start application
+- MVVM architecture
+- CRUD operations
+- SQL Server integration
+- Data validation
+- Dependency separation
+- Clean code structure
 
 ## Tech stack
 
-C#
-.NET
-WPF
-MVVM
-Entity Framework
-SQL Server
-LINQ
+- C#
+- .NET
+- WPF
+- MVVM
+- Entity Framework
+- SQL Server
+- LINQ
