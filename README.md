@@ -29,11 +29,11 @@ Project structure:
 
 ## How to run
 
-1 clone repo
-2 open in Visual Studio
-3 update connection string
-4 run database migration
-5 start application
+Clone repo
+Open in Visual Studio
+Update connection string
+Run database migration
+Start application
 
 ## Tech stack
 
